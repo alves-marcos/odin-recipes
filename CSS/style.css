@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title-book {
+  background-color: rgb(117, 117, 212);
+  font-size: 40px;
+  margin: 15px auto;
+  padding: 1%;
+  outline: 2px solid red;
+  text-align: center;
+}
+
+.img-book {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+#link-receitas {
+  outline: 2px solid red;
+}
+
+#hr-book {
+  margin-bottom: 30px;
+  padding: 2px;
+  background-color: black;
+}
+
+.list-receitas li {
+  margin-left: 30px;
+  padding-bottom: 15px;
+  outline: 2px solid red;
+}
