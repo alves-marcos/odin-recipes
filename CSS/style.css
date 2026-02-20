@@ -29,7 +29,6 @@
 }
 
 #link-receitas {
-  outline: 2px solid red;
   margin-left: 15px;
 }
 
@@ -39,25 +38,46 @@
   background-color: black;
 }
 
-.list-receitas li {
-  margin-left: 30px;
-  padding-bottom: 15px;
-  outline: 2px solid red;
-}
-
 .ingredientes {
-  margin: 20px 0px 20px 30px;
+  margin: 20px 0px 20px 50px;
 }
 
-.title-h3{
+.ingredientes li {
+  margin-bottom: 15px;
+}
+
+.title-h3 {
   margin-bottom: 20px;
+  margin-top: 50px;
   font-size: 25px;
 }
 .preparo {
-  margin: 20px 0px 50px 30px;
+  margin: 90px 0px 50px 50px;
+}
+
+.preparo li {
+  margin-bottom: 15px;
 }
 
 .title-second {
   margin: 30px auto;
   font-size: 40px;
+}
+
+.rodape {
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+.rodape a:active{
+  color: greenyellow;
+}
+
+.rodape a:visited{
+  color: purple;
+}
+
+.rodape a:hover{
+  color: black;
+  background-color: rgb(123, 120, 126);
 }
